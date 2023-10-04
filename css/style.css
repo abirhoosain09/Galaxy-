@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Start Menu  */
+ section{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+ .logo{
+
+ }
+ .logo img{
+
+
+}
+ .menu{
+
+ }
+ .menu ul{
+
+display: flex;
+list-style-type: none;
+}
+ .menu ul li{
+
+margin-left: 50px;
+
+}
+ .menu ul li a{
+    
+text-decoration: none;
+    
+display: flex;
+font-family: italic;
+text-transform: uppercase;
+overflow: visible;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+color: #626262;
+
+ }
+ .menu ul li:hover{
+    background-color: darkblue;
+    color: #000;
+}
+/* end menu  */
+/* start banner */
+ .banner{
+   width: 100%;
+   margin: auto;
+   position: relative;
+   text-align: center;
+ }
+ .banner img{
+    width: 100%;
+ }
+ .banner_1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ .banner_1 h1{
+    font-size: 40px;
+    color: #000;
+    text-transform: uppercase;
+ }
+ .banner_1 p{
+    font-size: 22px;
+    padding: 5px,20px;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .banner_1 button{
+    padding: 20px 40px;
+    background-color: #fb6e52;
+    border: 1px solid white;
+    font-size: 18px;
+    color: #fff;
+ }
+ .banner_1 button:hover{
+    background-color: aqua;
+    color: black;
+ }
+ /* end banner  */
+ /* start about  */
+ .about{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+ }
+ .about_1{
+ text-align: center;
+ }
+ .about_1 i{
+   background-color: #fb6e52;
+   font-size: 40px;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+ }
+ .about_1 h2{
+   color: #696a6e;
+   text-transform: capitalize;
+   padding: 20px 0;
+   font-family: 'Roboto', sans-serif;
+ }
+ .about_1 p{
+   color: #d2d3d4;
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+
+ }
+
+ /* end about  */
+ /* want  */
+ .want{
+   width: 50%;
+   margin: auto;
+   margin: 70px auto;
+ }
+ .want p{
+   font-size: 30px;
+   color: #fb6e52;
+   font-family: 'Roboto', sans-serif;
+  text-align: center;
+ 
+ }
+ /* want  */
+
+ /* card  */
+
+ .card{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+ }
+ .card_1{
+   width: 32%;
+ }
+ .card_1 img{
+   width: 100%;
+   height: 350px;
+ }
+ .card_1 h2{
+   text-align: center;
+  padding-top: 50px;
+   color: #292c34;
+   font-family: 'Roboto', sans-serif;
+ }
+ .card_1 h3{
+   text-align: center;
+   padding-bottom: 100px;
+   padding-top: 20px;
+   color: #a4a5a7;
+   font-family: 'Roboto', sans-serif;
+ }
+
+  /* card  */
+  /* blog  */
+  .blog{
+   width: 100%;
+   background-color: #f9f9f9;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+  }
+  .blog_1{
+   width: 100%;
+  }
+  .blog_1 h1{
+   text-align: center;
+   text-transform: uppercase;
+   padding: 50px;
+  }
+  .blg{
+   width: 80%;
+   display: flex;
+   margin: auto;
+   justify-content: space-between;
+  }
+  .blog_2{
+   width: 45%;
+   justify-content: space-between;
+   margin: auto;
+  }
+  .blog_2 img{
+   width: 100%;
+  }
+  .blog_2 h4{
+   color: #fb6e52;
+   margin-top: 30px;
+  }
+  .blog_2 p{
+   color: #a4a5a7;
+   margin-top: 30px;
+  }
+  /* blog  */
+
+
+  /* fotter  */
+  footer{
+   width: 100%;
+   background-color: #292c34;
+   display: flex;
+   justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  }
+  .all_1{
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+  }
+  .all_right{
+   display: flex;
+   justify-content: space-between;
+  }
+  .all_right img{
+  
+  }
+  .all_right h1{
+   padding-left: 30px;
+   color: #696a6e;
+  }
+  .icon_f{
+
+  }
+  .icon_f ul{
+   display: flex;
+   
+  }
+  .icon_f ul li{
+   list-style-type: none;
+  }
+  .icon_f ul li a{
+  text-decoration: none;
+  margin-left: 30px;
+  color: #fff;
+  }
+
+  /* fotter  */
